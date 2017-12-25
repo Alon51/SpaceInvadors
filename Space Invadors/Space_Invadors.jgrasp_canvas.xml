@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="1">
+    <Name>anyHit</Name>
+    <Signature>()V</Signature>
+    <DeclaringType>Space_invadors$Game</DeclaringType>
+    <Depth>3</Depth>
+  </Scope>
+  <Scope id="0">
+    <Name>isGameOver</Name>
+    <Signature>()Z</Signature>
+    <DeclaringType>Space_invadors$Game</DeclaringType>
+    <Depth>3</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>480</X>
+      <Y>60</Y>
+      <W>98</W>
+      <H>47</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local boolean` gameOver</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>50</X>
+      <Y>220</Y>
+      <W>316</W>
+      <H>197</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local Bullet` temp</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>20</X>
+      <Y>60</Y>
+      <W>273</W>
+      <H>116</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.util.Iterator` it</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>701</W>
+    <H>582</H>
+  </Size>
+  <ESize>
+    <W>701</W>
+    <H>582</H>
+  </ESize>
+</Canvas>
